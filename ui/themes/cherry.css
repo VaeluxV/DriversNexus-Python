@@ -1,0 +1,56 @@
+/* Themes are W.I.P. */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #1f0a11; /* very dark, low-saturation cherry tone */
+    color: #e9dce0; /* soft desaturated light tone */
+    height: 100vh;
+}
+
+.sidebar {
+    width: 60px;
+    background-color: #17070d; /* slightly darker than body */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.6); /* stronger visible shadow */
+    height: 100vh;
+}
+
+.sidebar button {
+    background: none;
+    border: none;
+    color: #d9c2c8; /* light muted cherry */
+    font-size: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sidebar button:hover {
+    color: #ffffff;
+}
+
+.sidebar button img {
+    filter: invert(0.6) brightness(0.85) saturate(0.4); /* lower saturation */
+    transition: filter 0.3s;
+}
+
+.sidebar button:hover img {
+    filter: invert(1) brightness(1.1) saturate(0.6); /* subtle contrast bump */
+}
+
+.bottom-button {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #1f0a11; /* match body */
+    color: #e9dce0;
+}
