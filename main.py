@@ -4,10 +4,10 @@ import webbrowser
 
 class API:
     def open_new_window(self):
-        # Create HTML content for the new window
-        html = "<html><body style='background:#1e1e2f;color:white;'><h1 style='text-align:center;'>New Window</h1></body></html>"
-        # Create a new window for the new content
-        webview.create_window("Extra Window", html=html)
+        # Get the absolute path to the HTML file
+        html_file_path = os.path.abspath('train_screens/tgv_tvm.html')
+        # Open the HTML file in a new webview window
+        webview.create_window("Extra Window", html_file_path)
 
     def open_github(self):
         # Open GitHub link in the system's default browser

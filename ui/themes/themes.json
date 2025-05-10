@@ -1,0 +1,5 @@
+[
+  { "name": "Dark Mode", "file": "dark.css" },
+  { "name": "Light Mode", "file": "light.css" },
+  { "name": "Cherry", "file": "cherry.css" }
+]

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Settings</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themes/dark.css">
+    <link id="theme-css" rel="stylesheet" href="themes/dark.css">
     <script defer src="script.js"></script>
     <script>window.page = "settings";</script>
 </head>
@@ -22,7 +23,24 @@
     </div>
     <div class="content">
         <h1>Settings</h1>
-        <p>W.I.P.</p>
-    </div>
+        <p>This page is still W.I.P.</p>
+        <p>Expect some bugs and changes.</p>
+
+        <hr class="settings-divider">
+
+        <div class="setting-group">
+            <label for="theme-select">Select Theme:</label>
+            <select id="theme-select">
+                <!-- Options will be dynamically loaded -->
+            </select>
+        </div>
+
+        <div class="setting-group">
+            <label>
+                <input type="checkbox" id="system-theme-toggle">
+                Follow system theme (ignores selected theme)
+            </label>
+        </div>
+            </div>
 </body>
 </html>
