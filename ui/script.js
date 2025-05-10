@@ -125,6 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // ✅ Always load theme settings globally
+    // Always load theme settings globally
     loadThemes();
 });

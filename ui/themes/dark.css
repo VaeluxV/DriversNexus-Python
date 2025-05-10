@@ -77,3 +77,34 @@ input[type="checkbox"] {
     border-top: 1px solid #444;
     margin: 30px 0 20px;
 }
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    color: #cccccc;
+}
+
+.section-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(0.7);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#custom-css-input {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    resize: vertical;
+    font-family: monospace;
+}
