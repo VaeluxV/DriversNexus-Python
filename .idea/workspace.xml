@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d315120-d092-4359-86c2-df5c87c18fce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ui/img/svg/brush.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/img/svg/code.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/visuals.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings/visuals.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/settings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/themes/cherry.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/themes/cherry.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/themes/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/themes/dark.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/themes/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/themes/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/themes/themes.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/themes/themes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
